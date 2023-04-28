@@ -62,12 +62,12 @@ searchBtn.addEventListener("click", () => {
                 renderCurrentWeather(currentData);
                 render5day(currentData);
 
-                const history = JSON.parse(localStorage.getItem("history-list")) || [];
+                // const history = JSON.parse(localStorage.getItem("history-list")) || [];
+                history = [...new Set(history)];
                 history.push(cityInput.value);
                 localStorage.setItem("history-list", JSON.stringify(history));
                 updateHistoryList();
-            }
-            )
+            });
     }
 });
 
@@ -94,5 +94,4 @@ function updateHistoryList() {
 }
 
 updateHistoryList();
-
 
