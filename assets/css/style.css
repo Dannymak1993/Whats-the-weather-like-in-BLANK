@@ -10,6 +10,7 @@ body {
     font-family: "Poppins";
     background-color: #181a1a;
     min-height: 100vh;
+    font-size: 17px;
 }
 
 input {
@@ -54,5 +55,33 @@ input:focus {
 }
 
 .card {
-    background-color:#b4e3eb4b;
+    background-color:#b8cbd1d6;
+    padding: 10px;
+}
+
+#history-list li {
+    list-style:none;
+    cursor: pointer;
+}
+.history-list-item:hover {
+    display:inline-block;
+    color: #5fd7ea;
+    font-size: 1.5em;
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out; 
+    }
+
+.past-searches {
+    position: absolute;
+    top: 55px;
+    right:20px;
+    width: 250px;
+    border:2px solid #5fd7ea;
+}
+
+#history-list {
+    position: absolute;
+    top: 100px;
+    right:200px;
+    
 }
