@@ -21,7 +21,7 @@ Navigate to the urls located below and type in your city name to begin searching
 
 [Repository](https://github.com/Dannymak1993/Whats-the-weather-like-in-BLANK)
 
-[Github Page Live URL]()
+[Github Page Live URL](https://dannymak1993.github.io/Whats-the-weather-like-in-BLANK/)
 
 ## Future Development
 
