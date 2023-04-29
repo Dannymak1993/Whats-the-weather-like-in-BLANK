@@ -25,7 +25,7 @@ Navigate to the urls located below and type in your city name to begin searching
 
 ## Future Development
 
-If I came back to this app in the future, I would make it so that typing in an invalid city name will return an error message. I would also like to include the current time at the current location if possible, though that may require the use of another API. I would also like for the user to be able to search for cities using the keyboard alone meaning the app must be able to process the enter command instead of clicking search. 
+If I came back to this app in the future, I would make it so that typing in an invalid city name will return an error message. I would also like to include the current time at the current location if possible, though that may require the use of another API. I would also like for the user to be able to search for cities using the keyboard alone meaning the app must be able to process the enter command instead of clicking search. Also the app is currently not suited for smaller screens so I would like to be able to adjust the layout on smaller screens in the future. 
 
 ## Credits
 
